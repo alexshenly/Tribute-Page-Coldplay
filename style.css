@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Frank+Ruhl+Libre:wght@500&display=swap');
+
+body {
+    font-family: 'EB Garamond', serif;
+    ;
+    background-color: #000;
+    margin: 0;
+}
+
+    {
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #8a2be2;
+    width: 100%;
+    z-index: 10;
+}
+
+nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 40px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: auto;
+}
+
+nav ul li a:hover {
+    text-decoration: underline wavy;
+}
+
+#main {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+#main h1 {
+    font-size: 10vw;
+    color: purple;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+}
+
+#main p {
+    margin: 0;
+    font-size: 4vw;
+    font-family: Frank Ruhl Libre, serif;
+    color: white;
+}
+
+#img-div {
+    background-color: white;
+    padding: 20px
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+}
+
+#img-caption {
+    font-family: Frank Ruhl Libre, serif;
+    font-size: .7em;
+    padding-top: 8px;
+    margin-top: 8px;
+}
+
+#tribute-info {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+#tribute-info h2 {
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+#tribute-info ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#tribute-info li {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.album {
+    position: relative;
+    background-color: purple;
+}
+
+.album .album-img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.album .album-overlay {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.album .album-overlay:hover {
+    opacity: 1;
+}
+
+.album .release-date {
+    font-size: .8em;
+}
+
+.album .album-name {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+#videos {
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+
+}
+
+.videos-list {
+    margin-top: 30px;
+
+
+}
+
+#follow {
+    text-align: center;
+    background-color: #8a2be2;
+    color: white;
+    padding: 5px 0;
+}
+
+#follow ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#follow ul li {
+    font-size: 2em;
+    margin: 0 10px;
+}
+
+#follow ul li a {
+    color: white;
+}
